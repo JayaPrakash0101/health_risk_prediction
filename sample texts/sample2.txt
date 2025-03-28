@@ -1,0 +1,29 @@
+Admission Diagnosis: Pneumonia with hypoxia
+
+Discharge Diagnosis: Resolved pneumonia
+
+Secondary Diagnoses: Hypertension, resolved hypoxia
+
+Consultations: Pulmonology
+
+Procedures: None
+
+HPI: Patient presented with fever, cough, and difficulty breathing. Chest X-ray confirmed pneumonia.
+
+Brief Hospital Course: Treated with IV antibiotics and oxygen therapy. Oxygen requirement reduced gradually. Discharged on oral antibiotics.
+
+Physical Exam: Vitals stable, lungs clear to auscultation.
+
+Pending Lab or Test Results: None
+
+Immunizations Given During Admission: Influenza vaccine
+
+Discharge Disposition: Home with caregiver assistance
+
+Diet: Regular
+
+Discharge Medications: Amoxicillin 500 mg PO TID for 7 days, Lisinopril 10 mg PO daily
+
+Discharge Instructions: Continue medications, rest, and return if symptoms worsen
+
+Follow-up Appointments: Pulmonology follow-up in 1 week at XYZ Medical Clinic

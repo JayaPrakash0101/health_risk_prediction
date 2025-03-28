@@ -1,0 +1,29 @@
+Admission Diagnosis: Diabetic ketoacidosis (DKA)
+
+Discharge Diagnosis: Resolved DKA, uncontrolled diabetes mellitus
+
+Secondary Diagnoses: Hyperlipidemia
+
+Consultations: Endocrinology
+
+Procedures: None
+
+HPI: Patient presented with nausea, vomiting, and confusion. Labs showed elevated glucose and ketones.
+
+Brief Hospital Course: Treated with insulin infusion and IV fluids. Transitioned to subcutaneous insulin.
+
+Physical Exam: Vitals stable, oriented, no acute distress.
+
+Pending Lab or Test Results: HbA1c pending
+
+Immunizations Given During Admission: None
+
+Discharge Disposition: Home with self-care
+
+Diet: Low-carb diabetic diet
+
+Discharge Medications: Insulin glargine 20 units SQ at bedtime, Metformin 500 mg PO BID
+
+Discharge Instructions: Monitor blood glucose, adhere to diet, and adjust insulin as directed
+
+Follow-up Appointments: Endocrinology in 2 weeks at ABC Family Care

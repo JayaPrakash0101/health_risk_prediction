@@ -1,0 +1,62 @@
+{% extends 'login.html' %}
+
+{% block title %}Predict Risk Score{% endblock %}
+
+{% block header %}Predict your risk score here!{% endblock %}
+
+{% block form_content %}
+    <form method="post" action="">
+        <div class="form-floating" style="margin-bottom: 5px;">
+            <input type="text" class="form-control" id="floatingAge" placeholder="Age" name="age" value="{{ request.form['age'] if request.form.get('age') else '' }}"required>
+            <label for="floatingAge">Age</label>
+        </div>
+        
+        <div class="form-floating" style="margin-bottom: 5px;">
+            <select class="form-select" id="floatingGender" name="sex" required>
+                <option value="" selected disabled>Select Gender</option>
+                <option value="male" {% if request.form.get('sex') == 'male' %} selected {% endif %}>Male</option>
+                <option value="female" {% if request.form.get('sex') == 'female' %} selected {% endif %}>Female</option>
+            </select>
+            <label for="floatingGender">Gender</label>
+        </div>
+        
+        <div class="form-floating" style="margin-bottom: 5px;">
+            <input type="text" class="form-control" id="floatingBMI" placeholder="BMI" name="bmi" value="{{ request.form['bmi'] if request.form.get('bmi') else '' }}" required>
+            <label for="floatingBMI">Body Mass Index (BMI)</label>
+        </div>
+        
+        <div class="form-floating" style="margin-bottom: 5px;">
+            <input type="text" class="form-control" id="floatingChildren" placeholder="Children" name="children" value="{{ request.form['children'] if request.form.get('children') else '' }}" required>
+            <label for="floatingChildren">Number of children</label>
+        </div>
+        
+        <div class="form-floating" style="margin-bottom: 5px;">
+            <select class="form-select" id="floatingSmoker" name="smoker" required>
+                <option value="" selected disabled>Select Smoking Status</option>
+                <option value="yes" {% if request.form.get('smoker') == 'smoker' %} selected {% endif %}>Smoker</option>
+                <option value="no" {% if request.form.get('smoker') == 'non-smoker' %} selected {% endif %}>Non-Smoker</option>
+            </select>
+            <label for="floatingSmoker">Smoking Status</label>
+        </div>
+
+        <button class="btn btn-primary w-100 py-2" type="submit">Predict</button>
+    </form>
+
+    {% if prediction_text %}
+        <div class="alert alert-success mt-3">
+            <h4>{{ prediction_text }}</h4>
+        </div>
+        <div class="alert alert-success mt-3">
+            <h4>{{ risk_score_text }}</h4>
+        </div>
+        <br><br>
+
+        <!-- Button to Analyze Medical Document -->
+        <form action="{{ url_for('analyze_medical_document') }}" method="get">
+            <input type="hidden" name="premium" value="{{ prediction_text }}">
+            <input type="hidden" name="risk_score" value="{{ risk_score_text }}">
+            <button class="btn btn-primary w-100 py-2" type="submit">Analyze Medical Document</button>
+        </form>
+    {% endif %}
+    <br>
+{% endblock %}

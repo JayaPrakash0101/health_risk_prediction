@@ -1,0 +1,15 @@
+Admission Diagnosis: Acute myocardial infarction (MI)
+Discharge Diagnosis: Post-MI recovery
+Secondary Diagnoses: Hypercholesterolemia, hypertension
+Consultations: Cardiology
+Procedures: Coronary angioplasty with stent placement
+HPI: Patient presented with chest pain and shortness of breath. ECG and troponins confirmed MI.
+Brief Hospital Course: Underwent emergency angioplasty. Stabilized on dual antiplatelet therapy.
+Physical Exam: Vitals stable, no chest pain, clear lung sounds.
+Pending Lab or Test Results: None
+Immunizations Given During Admission: Pneumococcal vaccine
+Discharge Disposition: Home with caregiver support
+Diet: Low-fat, low-sodium diet
+Discharge Medications: Aspirin 81 mg PO daily, Atorvastatin 40 mg PO nightly, Metoprolol 50 mg PO BID
+Discharge Instructions: Lifestyle modifications, medication adherence, and cardiac rehab referral
+Follow-up Appointments: Cardiology in 1 week at GHI Internal Medicine

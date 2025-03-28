@@ -1,0 +1,28 @@
+{% extends 'login.html' %}
+
+{% block title %}New User Registration{% endblock %}
+
+{% block header %}Register Here{% endblock %}
+
+{% block form_content %}
+    <form method="post" action="">
+        <div class="form-floating" style="margin-bottom: 5px;">
+            <input type="text" class="form-control" id="floatingFullName" placeholder="Full Name" name="full_name" required>
+            <label for="floatingFullName">Full Name</label>
+        </div>
+        <div class="form-floating" style="margin-bottom: 5px;">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" name="email" required>
+            <label for="floatingInput">Email address</label>
+        </div>
+        <div class="form-floating" style="margin-bottom: 5px;">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password" name="password" required>
+            <label for="floatingPassword">Password</label>
+        </div>
+        <button class="btn btn-primary w-100 py-2" type="submit">Register</button>
+    </form>
+    <br>
+    <p style="color: cyan;"><a href="{{ url_for('login') }}">Existing user? Login here!</a></p>
+    <!-- <br>
+    <br>
+    <br> -->
+{% endblock %}

@@ -1,0 +1,29 @@
+Admission Diagnosis: Acute appendicitis
+
+Discharge Diagnosis: Post-appendectomy recovery
+
+Secondary Diagnoses: None
+
+Consultations: General Surgery
+
+Procedures: Laparoscopic appendectomy
+
+HPI: Patient presented with severe right lower quadrant pain. Imaging confirmed appendicitis.
+
+Brief Hospital Course: Underwent surgery without complications. Recovered with IV pain management and antibiotics.
+
+Physical Exam: Vitals stable, surgical site healing well.
+
+Pending Lab or Test Results: None
+
+Immunizations Given During Admission: Tetanus booster
+
+Discharge Disposition: Home with assistance
+
+Diet: Soft diet, advance as tolerated
+
+Discharge Medications: Acetaminophen 500 mg PO PRN, Ciprofloxacin 500 mg PO BID for 5 days
+
+Discharge Instructions: Avoid heavy lifting, monitor for signs of infection
+
+Follow-up Appointments: Surgery follow-up in 10 days at DEF Health Center

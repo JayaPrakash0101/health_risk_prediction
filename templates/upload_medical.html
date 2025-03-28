@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block title %}Upload Medical Document{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="card shadow">
+        <div class="card-header bg-primary text-white text-center">
+            <h3>Upload Medical Document for Analysis</h3>
+        </div>
+        <div class="card-body">
+            <p><strong>Predicted Premium:</strong> {{ premium }}</p>
+            <p><strong>Risk Score:</strong> {{ risk_score }}</p>
+
+            <form action="{{ url_for('analyze_medical_document') }}" method="post" enctype="multipart/form-data">
+                <input type="hidden" name="premium" value="{{ premium }}">
+                <input type="hidden" name="risk_score" value="{{ risk_score }}">
+
+                <div class="mb-3">
+                    <label for="medical_document" class="form-label">Select PDF File:</label>
+                    <input type="file" class="form-control" name="medical_document" accept=".pdf" required>
+                </div>
+
+                <button type="submit" class="btn btn-success w-100">Analyze Medical Document</button>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}

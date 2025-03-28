@@ -1,0 +1,29 @@
+Admission Diagnosis: Ischemic stroke
+
+Discharge Diagnosis: Post-stroke recovery
+
+Secondary Diagnoses: Atrial fibrillation
+
+Consultations: Neurology, Cardiology
+
+Procedures: None
+
+HPI: Patient presented with left-sided weakness and slurred speech. CT confirmed ischemic stroke.
+
+Brief Hospital Course: Treated with thrombolysis and started on anticoagulation. Underwent physical therapy.
+
+Physical Exam: Vitals stable, mild residual left-sided weakness.
+
+Pending Lab or Test Results: None
+
+Immunizations Given During Admission: Influenza vaccine
+
+Discharge Disposition: Home with home health services
+
+Diet: Soft diet due to mild dysphagia
+
+Discharge Medications: Warfarin 5 mg PO daily, Amlodipine 10 mg PO daily
+
+Discharge Instructions: Continue physical therapy, monitor INR levels for anticoagulation management
+
+Follow-up Appointments: Neurology and Cardiology in 2 weeks at JKL Family Practice
