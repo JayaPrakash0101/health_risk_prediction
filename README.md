@@ -29,7 +29,7 @@ This project is a web-based health insurance underwriting support system that us
 ## 📁 Project Structure
 
 ```
-major_project/
+health_risk_prediction/
 ├── app.py                   # Main Flask application
 ├── predict.py               # ML model training and testing (run this with uncommenting code for pickle file generation once to create .pkl file)
 ├── models.py                # SQLAlchemy models
@@ -63,7 +63,7 @@ major_project/
 ### 🔧 Step 1: Clone the Repository
 ```bash
 git clone https://github.com/your-username/health-underwriting-app.git
-cd health-underwriting-app
+cd health_risk_prediction
 ```
 
 ### 🔒 Step 2: Create and Activate Virtual Environment
