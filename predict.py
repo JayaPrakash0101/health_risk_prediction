@@ -69,7 +69,6 @@ df_test['Predicted Premium (INR)'] = df_test.apply(lambda row: convert_usd_to_in
 df_test['Predicted Risk Score'] = df_test.apply(lambda row: calculate_risk_score(row['Predicted Charges (USD)'], row['age'], row['smoker'], row['bmi']), axis=1)
 
 print("\nPredictions on test data:\n")
-
 print(df_test.head())
 
 print("\nR2 score for charges prediction: {:.3f}".format(r2_score(y_test, y_pred)))
@@ -80,6 +79,5 @@ print('Mean Absolute Error for charges: ${:.2f}'.format(mae))
 # pickle.dump(xgb, open("ml_model.pkl", "wb"))  
 # model = pickle.load(open("ml_model.pkl", 'rb'))
 # print("\nModel saved successfully!")
-
 # print(df_test['Predicted Charges (USD)'].min())
 # print(df_test['Predicted Charges (USD)'].max())

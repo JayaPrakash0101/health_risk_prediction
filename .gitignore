@@ -1,0 +1,22 @@
+# Python cache
+__pycache__/
+
+# Virtual environment
+env/
+
+# Local data files
+.env
+*.pkl
+
+# Uploaded files & generated folders
+uploads/
+saved_medical_ner/
+instance/
+*.db
+
+# VSCode settings (optional)
+.vscode/
+
+# OS metadata
+.DS_Store
+Thumbs.db

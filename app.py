@@ -128,7 +128,6 @@ def extract_medical_entities(raw_results):
         elif "THERAPEUTIC_PROCEDURE" in category:
             structured_data["Therapeutic Procedures"].add(text)
 
-    # Convert sets back to lists for JSON serialization
     for key in structured_data:
         structured_data[key] = list(structured_data[key])
 
